@@ -27,7 +27,7 @@ const blogs = [
 
 const BlogSection = () => {
   return (
-    <section className="py-24 bg-[#f8f8f8]">
+    <section className="py-24">
       <div className="max-w-7xl mx-auto px-6">
         
         <h2 className="text-center text-4xl font-bold text-green-900 mb-16">

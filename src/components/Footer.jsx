@@ -1,7 +1,7 @@
 import React from "react";
 import Facebook from "../assets/icons/fb.png";
 import Instagram from "../assets/icons/ig.png";
-import Twitter from "../assets/icons/x.png";
+import Twitter from "../assets/icons/twitter.png";
 import FooterRight from "../assets/footer_right.png";
 import FooterLeft from "../assets/footer_left.png";
 
