@@ -92,7 +92,7 @@ const Hero = () => {
           <button
             key={slide.id}
             onClick={() => swiperRef.current?.slideToLoop(index)}
-            className={`text-sm transition-all duration-300 ${
+            className={`text-sm transition-all duration-300 cursor-pointer ${
               activeSlide === index
                 ? "text-green-700 font-bold"
                 : "text-white hover:text-green-200"
