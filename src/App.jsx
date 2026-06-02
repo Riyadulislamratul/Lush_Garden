@@ -6,6 +6,7 @@ import FeaturesSection from './components/FeaturesSection'
 import Newsletter from './components/Newsletter'
 import Footer from './components/Footer'
 import BlogSection from './components/BlogSection'
+import GallerySection from './components/GallerySection'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <Hero />
     <ProductsSection />
     <FeaturesSection />
+    <GallerySection />
     <Newsletter />
     <BlogSection />
     <Footer />
