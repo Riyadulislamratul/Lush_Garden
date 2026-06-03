@@ -7,6 +7,7 @@ import Newsletter from './components/Newsletter'
 import Footer from './components/Footer'
 import BlogSection from './components/BlogSection'
 import GallerySection from './components/GallerySection'
+import TestimonialsSection from './components/TestimonialsSection'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
     <ProductsSection />
     <FeaturesSection />
     <GallerySection />
+    <TestimonialsSection />
     <Newsletter />
     <BlogSection />
     <Footer />
