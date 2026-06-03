@@ -47,10 +47,10 @@ const ProductsSection = () => {
             {products.map((product) => (
               <div
                 key={product.id}
-                className="bg-white rounded-lg overflow-hidden group hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
+                className="bg-white rounded-lg overflow-hidden group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
               >
                 {/* Wishlist */}
-                <button className="absolute z-10 top-3 right-3 bg-white rounded-full p-2 shadow-md hover:bg-green-700 hover:text-white transition">
+                <button className="absolute z-10 top-3 right-3 bg-white rounded-full p-2 shadow-md hover:bg-green-700 hover:text-white transition duration-300 cursor-pointer">
                   <Heart size={16} />
                 </button>
 
@@ -74,7 +74,7 @@ const ProductsSection = () => {
                       ${product.price}
                     </p>
 
-                    <button className="border border-green-700 text-green-700 px-4 py-2 text-xs hover:bg-green-700 hover:text-white transition">
+                    <button className="border border-green-700 text-green-700 px-4 py-2 text-xs hover:bg-green-700 hover:text-white transition duration-300 cursor-pointer">
                       Buy Now
                     </button>
                   </div>

@@ -71,11 +71,11 @@ const Hero = () => {
                   </p>
 
                   <div className="flex flex-col sm:flex-row justify-center gap-4">
-                    <button className="bg-green-700 text-white px-10 py-3 hover:bg-green-800 transition duration-300">
+                    <button className="bg-green-700 text-white px-10 py-3 hover:bg-green-800 transition duration-300 cursor-pointer">
                       Book Now
                     </button>
 
-                    <button className="border border-white text-white px-10 py-3 hover:bg-white hover:text-black transition duration-300">
+                    <button className="border border-white text-white px-10 py-3 hover:bg-white hover:text-black transition duration-300 cursor-pointer">
                       Watch Video
                     </button>
                   </div>
